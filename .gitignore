@@ -1,0 +1,28 @@
+# Build output
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+
+# IDE and local tooling
+.idea/
+.vscode/
+compile_commands.json
+.cache/
+
+# Local secrets and credentials
+.env
+.env.*
+*.key
+*.token
+
+# User audio and generated exports
+*.wav
+*.flac
+*.ogg
+/exports/
+/recovery/
+
+# Test/runtime artifacts
+*.log
+*.core
